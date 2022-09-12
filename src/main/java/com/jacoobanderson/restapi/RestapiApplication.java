@@ -1,10 +1,10 @@
 package com.jacoobanderson.restapi;
 
-// import java.time.Instant;
-// import org.springframework.boot.CommandLineRunner;
+import java.time.Instant;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-// import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class RestapiApplication {
@@ -16,13 +16,6 @@ public class RestapiApplication {
 	// @Bean
 	// CommandLineRunner runner(ProductRepository repository) {
 	// 	return args -> {
-	// 		Product product = new Product(
-	// 			"Computer", 
-	// 			"A super fast computer.", 
-	// 			3000, Instant.now());
-				
-	// 		repository.insert(product);
-
 	// 	};
 	// }
 }

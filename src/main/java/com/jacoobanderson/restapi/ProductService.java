@@ -16,6 +16,6 @@ public class ProductService {
     }
 
     public Product save(Product product) {
-        return productRepository.insert(product);
-    }
+         return productRepository.insert(product);
+     }
 }
