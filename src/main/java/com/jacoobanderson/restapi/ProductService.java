@@ -1,6 +1,7 @@
 package com.jacoobanderson.restapi;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -18,4 +19,8 @@ public class ProductService {
     public Product save(Product product) {
          return productRepository.insert(product);
      }
+
+    public void delete(String id) {
+        productRepository.deleteById(id);
+    }
 }
